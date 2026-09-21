@@ -1,0 +1,203 @@
+import type { Dictionary } from "./tr";
+
+export const en: Dictionary = {
+  nav: {
+    home: "Home",
+    about: "About",
+    services: "Areas of Work",
+    online: "Online Counselling",
+    ankara: "Ankara",
+    blog: "Blog",
+    faq: "Frequently Asked Questions",
+    faqShort: "FAQ",
+    contact: "Contact",
+    appointment: "Book a Session",
+    appointmentLong: "Request an introductory session",
+    openMenu: "Open menu",
+    closeMenu: "Close menu",
+    mainNavLabel: "Main navigation",
+    languageLabel: "Language selection",
+    skipToContent: "Skip to content",
+  },
+  common: {
+    readMore: "Read more",
+    learnMore: "Learn more",
+    viewAll: "View all",
+    breadcrumbHome: "Home",
+    breadcrumbLabel: "Breadcrumb",
+    share: "Share",
+    copyLink: "Copy link",
+    copied: "Copied",
+    optional: "optional",
+    required: "required",
+    updatedOn: "Updated",
+    publishedOn: "Published",
+    author: "Author",
+    close: "Close",
+  },
+  home: {
+    heroNote: "In person in Ankara · Online from Türkiye and abroad",
+    servicesTitle: "Areas of work",
+    servicesLead:
+      "These are the topics that come up most often in sessions. Each has its own page, so you can see which one feels closest to your situation.",
+    servicesCta: "All areas of work",
+    processTitle: "How I work",
+    processLead:
+      "The process is not identical for everyone, but it usually moves through these four steps.",
+    formatsTitle: "Online and in-person sessions",
+    formatsLead:
+      "Both formats follow the same framework. We can decide together in the introductory session which one suits you.",
+    onlineCardTitle: "Online sessions",
+    onlineCardBody:
+      "You can join by video call from wherever you are. I work this way with clients across Türkiye and abroad.",
+    onlineCardCta: "About online counselling",
+    inPersonCardTitle: "In-person sessions",
+    inPersonCardBody:
+      "In-person sessions in Ankara are arranged through flexible office use. The location is agreed on when the appointment is made.",
+    inPersonCardCta: "Sessions in Ankara",
+    locationsTitle: "Districts where sessions can be arranged in Ankara",
+    faqTitle: "Frequently asked questions",
+    faqLead: "The questions that come up most often about the process.",
+    faqCta: "See all questions",
+    blogTitle: "Blog",
+    blogLead:
+      "Articles related to the areas I work in. They are not diagnostic or treatment advice, only explanations that make the process easier to understand.",
+    blogCta: "All articles",
+  },
+  about: {
+    educationTitle: "Education",
+    approachTitle: "Approach",
+    experienceTitle: "Professional experience",
+    valuesTitle: "What matters to me in sessions",
+  },
+  services: {
+    whoForTitle: "Who might this be suitable for?",
+    processTitle: "What can be addressed in the process?",
+    detailTitle: "Details",
+    otherServicesTitle: "Other areas of work",
+    relatedPostsTitle: "Related articles",
+    ctaTitle: "Would you like to work on this topic?",
+    ctaBody:
+      "You can start by requesting an introductory session. Filling in the form does not commit you to anything.",
+    ctaLabel: "Request an introductory session",
+    emptyState: "Content for this section is coming soon.",
+  },
+  blog: {
+    allPosts: "All articles",
+    categoriesTitle: "Categories",
+    allCategories: "All",
+    readingTime: "{minutes} min read",
+    tocTitle: "Contents",
+    relatedTitle: "Related articles",
+    shareTitle: "Share this article",
+    empty: "There are no published articles in this section yet.",
+    backToBlog: "Back to blog",
+    categoryEyebrow: "Category",
+    ctaTitle: "We can work on this together",
+    ctaBody:
+      "If what you read here felt familiar, we can begin with an introductory session.",
+    ctaLabel: "Request an introductory session",
+    disclaimer:
+      "This article is for general information. It does not replace an individual assessment, diagnosis or treatment.",
+  },
+  faq: {
+    stillQuestionsTitle: "Still have a question?",
+    stillQuestionsBody:
+      "You are welcome to ask directly. Your message is seen only by me.",
+    contactCta: "Get in touch",
+  },
+  contact: {
+    phoneLabel: "Phone",
+    emailLabel: "Email",
+    instagramLabel: "Instagram",
+    linkedinLabel: "LinkedIn",
+    whatsappCta: "Message on WhatsApp",
+    channelsTitle: "Contact channels",
+    formatsTitle: "Session options",
+    onlineTitle: "Online sessions",
+    onlineBody: "You can join from anywhere in Türkiye or from abroad.",
+    inPersonTitle: "In-person sessions in Ankara",
+    inPersonBody:
+      "Arranged through flexible office use; the location is confirmed when the appointment is made.",
+    noChannelsYet:
+      "Contact details have not been published yet. You can reach me through the appointment form.",
+    preferFormTitle: "The quickest route: the introductory session form",
+    preferFormBody:
+      "Once you submit the form, I will get back to you. The information you share is used only to contact you.",
+  },
+  appointment: {
+    formTitle: "Introductory session request",
+    formLead:
+      "Filling in the fields below is enough. Only the details needed to contact you are requested.",
+    fullName: "Full name",
+    age: "Age",
+    phone: "Phone",
+    email: "Email",
+    preference: "Preferred session format",
+    preferenceOptions: {
+      online: "Online",
+      "yuz-yuze-ankara": "In person – Ankara",
+      farketmez: "Either works for me",
+    },
+    reason: "Reason for getting in touch",
+    reasonOptions: {
+      kaygi: "Anxiety",
+      "sinav-sureci": "Exam period",
+      "aile-ici-iletisim": "Family communication",
+      ozsaygi: "Self-esteem",
+      "anlam-arayisi": "Search for meaning",
+      "ebeveyn-danismanligi": "Parent counselling",
+      diger: "Other",
+      "belirtmek-istemiyorum": "Prefer not to say",
+    },
+    message: "Anything you would like to share about your situation",
+    messageHint:
+      "This field is not required. You do not have to go into detail; we can talk about it in the session.",
+    consent:
+      "I give my explicit consent for my personal data to be processed in order to assess my appointment request.",
+    consentLinkText: "Data Protection Notice",
+    submit: "Send request",
+    submitting: "Sending…",
+    successTitle: "Your request has been received",
+    successBody:
+      "You will hear back shortly. There is nothing further you need to do in the meantime.",
+    successCta: "Back to home",
+    errorTitle: "The request could not be sent",
+    genericError: "Something unexpected happened. Please try again later.",
+    rateLimited:
+      "Too many requests were sent in a short time. Please try again in a few minutes.",
+    notConfigured: "The form cannot be submitted right now. Please try again later.",
+    privacyNote:
+      "The information you share is transmitted over an encrypted connection and used only to assess your appointment request.",
+    validation: {
+      fullName: "Please enter your first and last name.",
+      age: "Please enter a valid age.",
+      phone: "Please enter a valid phone number.",
+      email: "Please enter a valid email address.",
+      preference: "Please choose a session format.",
+      reason: "Please choose a reason.",
+      message: "The message can be at most 1500 characters.",
+      consent: "Your explicit consent is required to continue.",
+    },
+  },
+  footer: {
+    aboutTitle: "Ecesu Karslı",
+    navTitle: "Site map",
+    servicesTitle: "Areas of work",
+    legalTitle: "Legal",
+    privacy: "Privacy Policy",
+    cookies: "Cookie Policy",
+    followTitle: "Follow",
+    rights: "All rights reserved.",
+    disclaimer:
+      "The content on this site is for general information and does not replace medical diagnosis or treatment. In an emergency, please call your local emergency number (112 in Türkiye).",
+  },
+  notFound: {
+    title: "We couldn't find that page",
+    body: "The link may have changed or the page may have been removed. You can continue from the sections below.",
+    cta: "Back to home",
+  },
+  legal: {
+    lastUpdated: "Last updated",
+  },
+};
